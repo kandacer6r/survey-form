@@ -1,0 +1,65 @@
+/*style the body/form*/
+body{
+  background-color:white;
+  font-family: Verdana;
+  color:pink;
+
+}
+p{
+  text-align:center;
+}
+#title{
+  text-align:center;
+  background-color:#89CFF0;
+  max-width:400px;
+  margin:20px auto;
+  padding:20px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+h1{
+  color:pink;
+}
+form{
+  background-color:#89CFF0;
+  max-width:500px;
+  margin:50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.form-control{
+  text align:left;
+  margin-bottom:20px;
+}
+/*edit the labels*/
+.form-control label{
+  display:block;
+  margin:10px;
+}
+.form-control input,
+   .form-control select,
+      .form-control textarea {
+            border: 2px solid #777;
+            border-radius: 3px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+/*fixing the radio and checkbox buttons*/
+.form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+}
+  button {
+            background-color: pink;
+    color:white;
+            border: 2px solid #777;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 20px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }

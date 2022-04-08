@@ -1,0 +1,68 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<h1 id= "title">Introduction Survey</h1>
+<p id="description"> A short Survey to get to know you more! </p>
+   <form id="survey-form">
+     <!----enter name------>
+     <div class="form-control">
+        <label for="name" id="name-label">
+          Name </label>
+          <input type="text" name="name" id="name" placeholder="Enter name here"required>
+     </div>
+       
+       <!----enter email------>
+      <div class="form-control">
+        <label for="email" id="email-label">
+          Email </label>
+          <input type="email" name="email" id="email" placeholder="Enter email here" required/>
+     </div>
+     
+     <!----enter age------>
+     <div class="form-control">
+        <label for="number" id="number-label">
+          Age </label>
+          <input type="number" name="age" id="number" placeholder="Enter age here" required min=10 max=100/>
+     </div>
+     
+     <div class="form-control"
+     <label for="dropdown" id="dropdown-label">
+       Favorite Genre of Music
+     </label>
+     <select id="dropdown" name="music-genres">
+       <option value="Pop">Pop</option> 
+       <option value="R&B/Soul">R&B/Soul</option>
+       <option value="Jazz/Blues">Jazz/Blues</option>
+       <option value="Country">Country</option>
+       <option value="Rock">Rock</option>
+       <option value="Hip-Hop">Hip-Hop</option>
+     </select>
+  </div>
+
+<div class="form-control">
+  <label id="years-label"> 
+    What is your favorite decade?</label>
+     <label for="years1"><input id="years1" value="50s" type="radio" name="Decades">50's</label>
+     <label for="years2"><input id="years2" value="60s" type="radio" name="Decades">60's </label>
+     <label for="years3"><input id="years3" value="70s" type="radio" name="Decades">70's </label>
+     <label for="years4"><input id="years4" value="80s" type="radio" name="Decades">80's </label>
+     <label for="years5"><input id="years5" value="90s" type="radio" name="Decades">90's </label>
+</div>
+
+  <div class="form-control">
+    <label>What are your Favorite Hobbies? 
+      <small>(Check all that apply)</small></label> 
+    <label for="skateboarding"><input id="skateboarding" value="skateboarding" type="checkbox" name="Hobbies">Skateboarding</label>
+    <label for="rollerblading"><input id="rollerblading" value="rollerblading" type="checkbox" name="Hobbies">Rollerblading</label>
+    <label for="video-games"><input id="video-games" value="video-games" type="checkbox" name="Hobbies">Video Games</label>
+    <label for="reading"><input id="reading" value="reading" type="checkbox" name="Hobbies">Reading</label>
+    <label for="travel"><input id="travel" value="travel" type="checkbox" name="Hobbies">Travel</label>
+    <label for="art"><input id="art" value="art" type="checkbox" name="Hobbies">Art</label>
+    <label for="music"><input id="music" value="music" type="checkbox" name="Hobbies">Music</label>
+    <label for="sports"><input id="sports" value="sports" type="checkbox" name="Hobbies">Sports <small>(playing or watching)</small></label>
+    <label for="tech"><input id="tech" value="tech" type="checkbox" name="Hobbies">Tech</label>
+    </div>
+<!----comments section----->
+<div class="form-control">
+ <textarea id="comment" name="comment" placeholder="Enter your comments"></textarea>
+  <button id="submit" type="submit" value="submit"> Submit</button>
+</div>
+   </form>
